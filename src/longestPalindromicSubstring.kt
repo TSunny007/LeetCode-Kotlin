@@ -1,5 +1,4 @@
 class LongestPalindromicSubstring {
-    var s: String = ""
     fun longestPalindromicSubstring(s: String): String {
         var N = s.length
         if (N == 1) return s
