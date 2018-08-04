@@ -3,8 +3,8 @@
  * */
 
 class TreeNode(var `val`: Int = 0) {
-    public var left: TreeNode? = null
-    public var right: TreeNode? = null
+     var left: TreeNode? = null
+     var right: TreeNode? = null
 }
 
 class ConvertBSTToGreaterTree {
@@ -37,7 +37,7 @@ fun main(args: Array<String>){
     val treeNode = TreeNode(5)
     treeNode.left = TreeNode(2)
     treeNode.right = TreeNode(13)
-    
+
     var tree = ConvertBSTToGreaterTree()
     var greaterTree = tree.convertBST(treeNode)
 
